@@ -1,4 +1,4 @@
-
+# Author: SCT (AMDG) 4/25/22
 
 # Imports
 from string import ascii_uppercase
@@ -14,18 +14,20 @@ def cipher_key(shift):
 
 def shift_line(line, dict_key):
     new_line = ""
-    # Add code here
+
     return new_line
 
 
-def encrypt_message(filename, dict_key):
+# def encrypt_message(filename, dict_key):
     # Add code here
 
 
 # Main
-user_file = input("Please enter a file to be encrypted: ")
-shift_value = input("Please enter a shift value: ")
+#user_file = input("Please enter a file to be encrypted: ")
+#shift_value = input("Please enter a shift value: ")
 
-key = cipher_key(shift_value)
+#key = cipher_key(shift_value)
 
-encrypt_message(user_file, key)
+#encrypt_message(user_file, key)
+
+shift_key = print(cipher_key(4))
