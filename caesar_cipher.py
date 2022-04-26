@@ -14,8 +14,11 @@ def cipher_key(shift):
 
 def shift_line(line, dict_key):
     new_line = ""
-
-    return new_line
+    values = []
+    for value in dict_key:
+        
+        
+        return new_line
 
 
 # def encrypt_message(filename, dict_key):
@@ -26,8 +29,10 @@ def shift_line(line, dict_key):
 #user_file = input("Please enter a file to be encrypted: ")
 #shift_value = input("Please enter a shift value: ")
 
-#key = cipher_key(shift_value)
+key = cipher_key(2)
+
+shift_line("hello", key)
 
 #encrypt_message(user_file, key)
 
-shift_key = print(cipher_key(4))
+
